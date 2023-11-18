@@ -151,7 +151,79 @@ margin-top: 100px;
   margin-top: 25px;
 }
 
-#twitter-share-btn{
-  color: #999999;
-  
+.bottom-logo{
+  position: absolute;
+  width: 85px;
+  height: 13px;
+  margin-left: 30px;
+  margin-top: 103px;
+}
+
+#sites{
+  font-family: 'My font';
+  color: #666666;
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 145px;
+  margin-top: 111px;
+}
+
+.list{
+
+display:flex;
+font-family: 'My font';
+color: #666666;
+font-size: 12px;
+font-weight: 100;
+margin-left: 94px;
+margin-top: -2px;
+list-style: none;
+
+}
+
+.list li{
+  margin-left: 10px;
+}
+
+#button1{
+  color: #fff01f;
+  background:#000;
+  font-family: 'My font';
+  font-size: 12px;
+  font-weight: 100;
+
+}
+
+#button2{
+  font-family: 'My font';
+  font-size: 12px;
+  font-weight: 100;
+  color: #666666;
+  background: #ffff;
+}
+
+
+#button3{
+  font-family: 'My font';
+  font-size: 12px;
+  font-weight: 100;
+  color: #666666;
+  background: #ffff;
+}
+
+
+#button4{
+  font-family: 'My font';
+  font-size: 12px;
+  font-weight: 100;
+  color: #666666;
+  background: #ffff;
+}
+
+#button5{
+  font-family: 'My font';
+  font-size: 12px;
+  font-weight: 100;
+  color: #666666;
+  background: #ffff;
 }
