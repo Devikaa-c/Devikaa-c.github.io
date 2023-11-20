@@ -1,5 +1,6 @@
 body{
 margin: 0;
+position: absolute;
 }
 
 
@@ -32,6 +33,7 @@ margin: 0;
   margin-top: -81px;
   margin-bottom: 0px;
   width:100%;
+  cursor: pointer;
 }
 
 
@@ -204,6 +206,8 @@ list-style: none;
   font-weight: 100;
   height: 30px;
   width: 30px;
+  border-width: 2px;
+  border-color: #fff01f;
 }
 
 #button2{
@@ -263,4 +267,130 @@ list-style: none;
 .flex-image:hover{
   background-color:rgb(44, 44, 141);
   cursor: pointer;
+}
+
+.icons{
+  background: #ffff;
+  margin-top: -53px;
+  margin-left: 93px;
+  display: flex;
+  height: 18px;
+}
+.icons img{
+  margin-left: 20px;
+}
+
+.icon2{
+  height: 24px;
+  margin-top: -3px;
+}
+
+#more{
+  font-family: 'My font';
+  font-size: 14px;
+  margin-left: 1256px;
+  margin-top: 130px;
+  color: #222;
+  font-weight: 100;
+
+}
+#less{
+  font-family: 'My font';
+  font-size: 14px;
+  float: right;
+  margin-right: 76px;
+  margin-top: -27px;
+  color: #222;
+  font-weight: 100;
+
+}
+
+#arrow1{
+  float: right;
+  margin-right: 202px;
+  margin-top: -25px;
+}
+
+#arrow2{
+float: right;
+margin-right: -104px;
+margin-top: -25px;
+}
+
+.text1{
+  font-family: 'Customfont';
+  font-size: 23px;
+  color: #333;
+  margin-top: -95px;
+  margin-left: 114px;
+  position: absolute;
+}  
+
+.text2{
+  font-family: 'Customfont';
+  font-size: 23px;
+  color: #333;
+  margin-top: -95px;
+  margin-left: 109px;
+  position: absolute;
+}  
+
+.text3{
+  font-family: 'Customfont';
+  font-size: 23px;
+  color: #333;
+  margin-top: -95px;
+  margin-left: 35px;
+  position: absolute;
+}  
+
+.text4{
+  font-family: 'Customfont';
+  font-size: 23px;
+  color: #333;
+  margin-top: -95px;
+  margin-left: 103px;
+  position: absolute;
+}  
+.text5{
+  font-family: 'Customfont';
+  font-size: 23px;
+  color: #333;
+  margin-top: -95px;
+  margin-left: 100px;
+  position: absolute;
+}  
+
+.text6{
+  font-family: 'Customfont';
+  font-size: 23px;
+  color: #333;
+  margin-top: -95px;
+  margin-left: 98px;
+  position: absolute;
+}  
+
+.text7{
+  font-family: 'Customfont';
+  font-size: 23px;
+  color: #333;
+  margin-top: -95px;
+  margin-left: 77px;
+  position: absolute;
+}  
+
+.text8{
+  font-family: 'Customfont';
+  font-size: 23px;
+  color: #333;
+  margin-top: -95px;
+  margin-left: 117px;
+  position: absolute;
+}  
+
+#player{
+  position: absolute;
+  margin-top: -1518px;
+  margin-left: 330px;
+  height: 97px;
 }
