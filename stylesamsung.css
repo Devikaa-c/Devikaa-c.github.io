@@ -1,9 +1,9 @@
-body{
-margin: 0;
+body {
+  margin: 0;
 }
 
 
-.logo{
+.logo {
   position: absolute;
   margin-left: 30px;
   margin-top: 40px;
@@ -12,13 +12,15 @@ margin: 0;
 }
 
 .container {
-  float:right;
+  float: right;
   position: relative;
   margin-top: 40px;
 
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 27px;
   height: 2px;
   background-color: #333;
@@ -26,80 +28,80 @@ margin: 0;
   margin-block: 6px;
 }
 
-.image1{
-  position:initial;
-  margin-right:0px;
+.image1 {
+  position: initial;
+  margin-right: 0px;
   margin-top: -81px;
   margin-bottom: 0px;
-  width:100%;
+  width: 100%;
   cursor: pointer;
 }
 
 
-.left{
+.left {
   float: left;
   margin-left: 0px;
   margin-top: -5px;
-  height:427.29px ;
-  width:759.61px ;
+  height: 427.29px;
+  width: 759.61px;
 }
 
-.right{
+.right {
   float: right;
   margin-right: 0px;
   margin-top: -5px;
   height: 427.29px;
-  width:759.61px ;
+  width: 759.61px;
 }
 
-.flex-container1{
-  display: flex;
-  height: 200px;
-  width: 100%; 
-  
-}
-
-.flex-container1 img{
-height: 474px;
-background-color:#f6f6f7;
-margin-top: 100px;
-}
-
-
-.flex-container2{
+.flex-container1 {
   display: flex;
   height: 200px;
   width: 100%;
-  background-color:#f6f6f7;
+
+}
+
+.flex-container1 img {
+  height: 474px;
+  background-color: #f6f6f7;
+  margin-top: 100px;
+}
+
+
+.flex-container2 {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background-color: #f6f6f7;
   margin-top: 380px;
 }
 
-.flex-container2 img{
+.flex-container2 img {
   height: 474px;
-  background-color:#ffff;
+  background-color: #ffff;
 }
 
 #first {
-  font-family:'Customfont' ;
-  position:absolute;
+  font-family: 'Customfont';
+  position: absolute;
   margin-top: -1765px;
   margin-left: 85px;
   font-size: 70px;
 
-} 
+}
 
-#leftimage{
+#leftimage {
   position: absolute;
-  font-family:'Customfont' ;
+  font-family: 'Customfont';
   margin-top: -1187px;
   margin-left: 9px;
   font-size: 32px;
 
 }
 
-#rightimage{
+#rightimage {
   position: absolute;
-  font-family:'Customfont' ;
+  font-family: 'Customfont';
   margin-left: 1178px;
   margin-top: -1188px;
   color: white;
@@ -107,26 +109,26 @@ margin-top: 100px;
 
 }
 
-#date{
+#date {
   position: absolute;
-  font-family:'Customfont';
+  font-family: 'Customfont';
   font-size: 32px;
   margin-left: 1358px;
   margin-top: -1150px;
   color: white;
 }
 
-#caption{
+#caption {
   position: absolute;
-  font-family:'Customfont';
+  font-family: 'Customfont';
   font-size: 32px;
   margin-top: -754px;
   margin-left: 32px;
-  
+
 }
 
 
-.footer{
+.footer {
   height: 0.2px;
   width: 100%;
   background-color: #9999;
@@ -134,25 +136,25 @@ margin-top: 100px;
   margin-top: 18%;
 }
 
-.bottom{
+.bottom {
   height: 230px;
   width: 100%;
   background-color: white;
   position: absolute;
   margin-top: 274px;
-  
+
 }
 
-#share{
+#share {
   font-family: 'My font';
   font-size: 18px;
   color: #999999;
-  font-weight:400;
+  font-weight: 400;
   margin-left: 30px;
   margin-top: 25px;
 }
 
-.bottom-logo{
+.bottom-logo {
   position: absolute;
   width: 85px;
   height: 13px;
@@ -160,7 +162,7 @@ margin-top: 100px;
   margin-top: 103px;
 }
 
-#sites{
+#sites {
   font-family: 'My font';
   color: #666666;
   font-size: 12px;
@@ -169,25 +171,25 @@ margin-top: 100px;
   margin-top: 111px;
 }
 
-.list{
+.list {
 
-display:flex;
-font-family: 'My font';
-color: #666666;
-font-size: 12px;
-font-weight: 100;
-margin-left: 94px;
-margin-top: -2px;
-list-style: none;
+  display: flex;
+  font-family: 'My font';
+  color: #666666;
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 94px;
+  margin-top: -2px;
+  list-style: none;
 
 }
 
-.list li{
+.list li {
   margin-left: 10px;
 }
 
 
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-evenly;
   height: 55px;
@@ -197,9 +199,9 @@ list-style: none;
 
 }
 
-#button1{
+#button1 {
   color: #fff01f;
-  background:#000;
+  background: #000;
   font-family: 'My font';
   font-size: 12px;
   font-weight: 100;
@@ -209,7 +211,7 @@ list-style: none;
   border-color: #fff01f;
 }
 
-#button2{
+#button2 {
   font-family: 'My font';
   font-size: 12px;
   font-weight: 100;
@@ -223,7 +225,7 @@ list-style: none;
 }
 
 
-#button3{
+#button3 {
   font-family: 'My font';
   font-size: 12px;
   font-weight: 100;
@@ -238,7 +240,7 @@ list-style: none;
 }
 
 
-#button4{
+#button4 {
   font-family: 'My font';
   font-size: 12px;
   font-weight: 100;
@@ -251,40 +253,42 @@ list-style: none;
   border-color: #BDBDBD;
 }
 
-#button5{
+#button5 {
   font-family: 'My font';
   font-size: 12px;
   font-weight: 100;
   color: #666666;
   background: #ffff;
   height: 30px;
-  width:180px;
+  width: 180px;
   border-style: solid;
   border-width: .5px;
   border-color: #BDBDBD;
 }
-.flex-image:hover{
-  background-color:rgb(44, 44, 141);
+
+.flex-image:hover {
+  background-color: rgb(44, 44, 141);
   cursor: pointer;
 }
 
-.icons{
+.icons {
   background: #ffff;
   margin-top: -53px;
   margin-left: 93px;
   display: flex;
   height: 18px;
 }
-.icons img{
+
+.icons img {
   margin-left: 20px;
 }
 
-.icon2{
+.icon2 {
   height: 24px;
   margin-top: -3px;
 }
 
-#more{
+#more {
   font-family: 'My font';
   font-size: 14px;
   margin-left: 1256px;
@@ -293,7 +297,8 @@ list-style: none;
   font-weight: 100;
 
 }
-#less{
+
+#less {
   font-family: 'My font';
   font-size: 14px;
   float: right;
@@ -304,90 +309,91 @@ list-style: none;
 
 }
 
-#arrow1{
+#arrow1 {
   float: right;
   margin-right: 202px;
   margin-top: -25px;
 }
 
-#arrow2{
-float: right;
-margin-right: -104px;
-margin-top: -25px;
+#arrow2 {
+  float: right;
+  margin-right: -104px;
+  margin-top: -25px;
 }
 
-.text1{
+.text1 {
   font-family: 'Customfont';
   font-size: 23px;
   color: #333;
   margin-top: -95px;
   margin-left: 114px;
   position: absolute;
-}  
+}
 
-.text2{
+.text2 {
   font-family: 'Customfont';
   font-size: 23px;
   color: #333;
   margin-top: -95px;
   margin-left: 109px;
   position: absolute;
-}  
+}
 
-.text3{
+.text3 {
   font-family: 'Customfont';
   font-size: 23px;
   color: #333;
   margin-top: -95px;
   margin-left: 35px;
   position: absolute;
-}  
+}
 
-.text4{
+.text4 {
   font-family: 'Customfont';
   font-size: 23px;
   color: #333;
   margin-top: -95px;
   margin-left: 103px;
   position: absolute;
-}  
-.text5{
+}
+
+.text5 {
   font-family: 'Customfont';
   font-size: 23px;
   color: #333;
   margin-top: -95px;
   margin-left: 100px;
   position: absolute;
-}  
+}
 
-.text6{
+.text6 {
   font-family: 'Customfont';
   font-size: 23px;
   color: #333;
   margin-top: -95px;
   margin-left: 98px;
   position: absolute;
-}  
+}
 
-.text7{
+.text7 {
   font-family: 'Customfont';
   font-size: 23px;
   color: #333;
   margin-top: -95px;
   margin-left: 77px;
   position: absolute;
-}  
+}
 
-.text8{
+.text8 {
   font-family: 'Customfont';
   font-size: 23px;
   color: #333;
   margin-top: -95px;
   margin-left: 117px;
   position: absolute;
-}  
+}
 
-#player{
+#player {
   position: absolute;
   margin-top: -1518px;
   margin-left: 330px;
